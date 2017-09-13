@@ -14,13 +14,13 @@ def check_guess(guess)
   number = $secret_number
   range = 5
   if guess > (number + range)
-    message = "Way Too High!"
+    message = "You guess is way too high!"
   elsif guess > number
-    message = "Too High"
+    message = "Your guess is too high!"
   elsif guess < (number - range)
-    message = "Way Too Low!"
+    message = "Your guess is way too low!"
   elsif guess < number
-    message = "Too Low"
+    message = "Your guess is too low!"
   else
     message = "You got it! The secret number is #{number}... I was joking about entering the matrix, ya know."
   end

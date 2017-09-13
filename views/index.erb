@@ -1,8 +1,17 @@
 <html>
   <head></head>
   <body>
-      <p>
-        The secret number is <%= num %>
-      </p>
+    <p>
+    Hello, my name is Morpheus. I've generated a secret number.
+    Try to guess the secret number by entering your guess below! If you
+    guess correctly, you will enter the matrix. Good luck!
+    </p>
+    <form>
+        <input type='text' name='guess' />
+        <input type='submit' value='Guess!' />
+    </form>
+    <p>
+      <%= message %>
+    </p>
   </body>
 </html>

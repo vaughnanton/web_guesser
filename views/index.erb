@@ -1,11 +1,11 @@
 <html>
   <head></head>
-  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <body>
     <p>
     Hello, my name is Morpheus. I've generated a secret number.
     Try to guess the secret number by entering your guess below! If you
-    guess correctly, you will enter the matrix. Good luck!
+    guess correctly, you will enter the matrix. You only have 5 guesses, good luck!
     </p>
     <form>
         <input type='text' name='guess' />
@@ -13,6 +13,9 @@
     </form>
     <p>
       <%= message %>
+    </p>
+    <p>
+      <%= count_message %>
     </p>
   </body>
 </html>

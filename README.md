@@ -1,3 +1,3 @@
 # web_guesser
 
-Website guessing game built using Ruby/Sinatra. 
+Web application game built using Ruby/Sinatra. [Play here!](https://calm-lake-82825.herokuapp.com/)
